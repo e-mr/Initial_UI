@@ -10,6 +10,10 @@
   background-color: yellow;
 }
 
+.album {
+  overflow: scroll;
+}
+
 img {
     width: 50%;
     margin: auto;
