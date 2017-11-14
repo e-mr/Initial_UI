@@ -4,7 +4,7 @@
   height: 100%;
 }
 
-.player-header {
+.navbar {
   height: 5%;
   width: 100%;
   background-color: yellow;
@@ -15,7 +15,10 @@
 }
 
 img {
-    width: 50%;
+    width: 40%;
     margin: auto;
-    position: absolute;
   }
+
+.fa-play-circle {
+
+}
