@@ -1,24 +1,54 @@
 .container-fluid {
-  background-color: green;
+  background-color: #e6f7ff;
   position: relative;
   height: 100%;
 }
 
-.navbar {
-  height: 5%;
+.info-bar{
+  height: 10%;
+  top: 0;
   width: 100%;
-  background-color: yellow;
+  background-color: #e6f7ff;
+  overflow: hidden;
+  position: fixed;
 }
 
 .album {
-  overflow: scroll;
+  height: 5rem;
 }
 
 img {
-    width: 40%;
+  width: 100%;
+}
+
+.fa-play-circle {
+  float: center;
+}
+
+h1 {
+  font-size: 13px !important;
+  font-family: Helvetica !important;
+}
+
+h2 {
+  font-size: 24px !important;
+  font-family: Helvetica !important;
+}
+
+h3 {
+  font-size: 19px !important;
+  font-family: Helvetica;
+}
+
+h4 {
+  font-size: 16px !important;
+  font-family: Helvetica !important;
+}
+
+img {
     margin: auto;
   }
 
-.fa-play-circle {
-
+.scroll {
+  background-color: black;
 }
